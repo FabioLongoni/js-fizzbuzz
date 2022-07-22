@@ -1,18 +1,22 @@
 console.log('hello')
 
 
-for ( let i = 1 ; i <= 100; i++) {
-    console.log(i)
+for ( let i = 0 ; i < 100; i++) {
 
-    if (i % 3 === 0) {
-        console.log('Fizz')
+    const number = i + 1 ;
+
+    if (number % 3 === 0) {
+        console.log(number + 'fizz');
     }
 
-    if (i % 5 === 0) {
-        console.log('Buzz')
+    if (number % 5 === 0) {
+        console.log(number + 'Buzz');
     }
 
-    if (i % 3 === 0, i % 5 ===0) {
-        console.log('fizzBuzz')
+    if (number % 3 === 0, number % 5 === 0) {
+        console.log(number + 'FizzBuzz');
     }
-}
+    
+    
+
+    
