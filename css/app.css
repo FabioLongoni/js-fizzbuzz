@@ -4,7 +4,48 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #083b4c;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 3rem 0;
+}
+
+h1 {
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.griglia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.cella {
+    background-color: #1389b2;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.FizzBuzz {
+    background-color: #f0466f;
+}
+
+.Fizz {
+    background-color: #0cd6a1;
+}
+
+.Buzz {
+    background-color: #ffd166;
 }
